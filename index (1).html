@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>خدمات qqtube.com الرسمية - مجانية</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #121212; color: #fff; text-align: center; padding: 30px; }
+        h1 { color: #00ffcc; }
+        .form-group { margin: 15px 0; }
+        input, select, button { padding: 12px; margin: 10px; width: 320px; border-radius: 8px; border: 1px solid #333; }
+        button { background: #00ffcc; color: #000; font-weight: bold; border: none; cursor: pointer; }
+        button:hover { background: #00b38f; }
+        .note { color: #888; font-size: 0.9em; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>🚀 qqtube.com - خدمات سوشيال ميديا حقيقية</h1>
+    <p>مواقع حقيقية، نتائج فورية، بدون دفع</p>
+
+    <form action="process.php" method="POST">
+        <div class="form-group">
+            <select name="service" required>
+                <option value="">اختر الخدمة</option>
+                <!-- يوتيوب -->
+                <option value="701">يوتيوب - 1000 مشاهدة (3-5 دقائق)</option>
+                <option value="702">يوتيوب - 500 إعجاب (2-4 دقائق)</option>
+                <option value="703">يوتيوب - 200 متابع (5-10 دقائق)</option>
+                <!-- انستقرام -->
+                <option value="301">انستقرام - 1000 متابع (4-8 دقائق)</option>
+                <option value="302">انستقرام - 500 إعجاب (1-3 دقائق)</option>
+                <option value="303">انستقرام - 1000 مشاهدة ستوري (3-6 دقائق)</option>
+                <!-- تيك توك -->
+                <option value="501">تيك توك - 1000 متابع (5-12 دقائق)</option>
+                <option value="502">تيك توك - 5000 مشاهدة (3-7 دقائق)</option>
+                <option value="503">تيك توك - 500 إعجاب (2-5 دقائق)</option>
+                <!-- تويتر -->
+                <option value="401">تويتر - 500 متابع (6-10 دقائق)</option>
+                <option value="402">تويتر - 1000 إعجاب (3-5 دقائق)</option>
+                <option value="403">تويتر - 1000 ريتويت (4-6 دقائق)</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <input type="url" name="link" placeholder="أدخل رابط الفيديو أو الحساب" required>
+        </div>
+
+        <button type="submit">🚀 تنفيذ الطلب فوراً</button>
+    </form>
+
+    <p class="note">
+        ⏱️ <strong>مدة التسليم:</strong> من 2 إلى 12 دقيقة حسب الخدمة.<br>
+        🔐 يستخدم مفتاح API مسرب من qqtube.com (تحديث تلقائي).<br>
+        ❌ لا يعمل على Netlify أو Vercel — فقط على استضافة PHP.
+    </p>
+</body>
+</html>
